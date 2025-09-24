@@ -1,0 +1,39 @@
+Dheena wants to know how the grading marks will works in education.could you please help him to learn the grading System. Note:-
+
+100=Grade is S
+90-99=Grade is A
+80-89=Grade is B
+70-79=Grade is C
+60-69=Grade is D
+50-59=Grade is E
+<50=Fail
+Get the subject marks from the user,then Find the average marks.Based on the average marks generate the Students grade marks.
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+a=input()
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+f=int(input())
+tot=b+c+d+e+f
+avg=tot/5
+print(f"Name of the Student:{a}".format(a))
+print(f"Total Mark:{tot}".format(tot))
+print(f"Average Mark:{float(avg)}".format(avg))
+avg=int(avg)
+if(avg==100):
+    print("Grade Mark:S")
+elif(avg>=90 and avg<=99):
+    print("Grade Mark:A")
+elif(avg>=80 and avg<=89):
+    print("Grade Mark:B")
+elif(avg>=70 and avg<=79):
+    print("Grade Mark:C")
+elif(avg>=60 and avg<=69):
+    print("Grade Mark:D")
+elif(avg>=50 and avg<=59):
+    print("Grade Mark:E")
+elif(avg<50):
+    print("Grade Mark:Fail")
+else:
+    print("Invalid Input")
