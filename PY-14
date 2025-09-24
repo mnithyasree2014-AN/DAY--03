@@ -1,0 +1,9 @@
+College Management wants to separate the eligible students for their placement.so find the eligible students for the placement.
+name = input()
+arrears = int(input())
+cgpa = int(input())
+print(f"Name of the Student:{name}")
+if (arrears == 1 and cgpa > 70) or (arrears in [1, 2] and cgpa > 75):
+    print(f"{name} is Eligible for Placement")
+else:
+    print(f"{name} is Not Eligible for Placement")
