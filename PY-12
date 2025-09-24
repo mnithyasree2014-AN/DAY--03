@@ -1,0 +1,10 @@
+Riya wants to find the greatest of three numbers.could you please help her to find the greatest of three numbers that implements in programming.
+a=int(input())
+b=int(input())
+c=int(input())
+if(a>b and a>c):
+    print(f"Number1 is maximum with value of {float(a)}".format(a))
+elif(b>a and b>c):
+    print(f"Number2 is maximum with value of {float(b)}".format(b))
+else:
+    print(f"Number3 is maximum with value of {float(c)}".format(c))
